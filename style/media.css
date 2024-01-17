@@ -25,9 +25,8 @@
   nav {
     display: none;
   }
-  .fa-bars {
+  .fa-solid.fa-bars {
     display: block;
-    cursor: pointer;
   }
   .main {
     flex-direction: column;
