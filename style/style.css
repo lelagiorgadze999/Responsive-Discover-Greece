@@ -31,7 +31,8 @@ a {
   cursor: pointer;
 }
 .full_img {
-  background: url(../images/main_greece.svg), center, no-repeat;
+  background: url(../images/main_greece.svg), no-repeat;
+  background-position: center;
   background-size: cover;
   padding-top: 238px;
   padding-bottom: 200px;
@@ -72,11 +73,15 @@ a {
   color: #636060;
   font-size: 20px;
   font-weight: 400;
+  margin-bottom: 20px;
 }
 .cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 56px 33px;
+  /* gap: 56px 33px; */
+  row-gap: 56px;
+  justify-content: space-between;
+  align-items: center;
   width: 924px;
 }
 .services {
@@ -103,4 +108,8 @@ a {
 .corporate,
 .trip {
   margin-right: 0;
+}
+
+.fa-bars {
+  display: none;
 }

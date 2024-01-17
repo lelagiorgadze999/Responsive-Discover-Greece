@@ -1,0 +1,37 @@
+@media (max-width: 1230px) {
+  .container {
+    width: 95%;
+  }
+  .img_box h1 {
+    font-size: 50px;
+  }
+  .img_box p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1033px) {
+  .cards {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 650px) {
+  .cards,
+  .feedback_card {
+    width: 286px;
+    align-items: center;
+    justify-content: center;
+  }
+  nav {
+    display: none;
+  }
+  .fa-bars {
+    display: block;
+    cursor: pointer;
+  }
+  .main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
